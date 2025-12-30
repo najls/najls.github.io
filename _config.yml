@@ -53,3 +53,6 @@ title: 1998...
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+sass:
+    sass_dir: assets/sass
