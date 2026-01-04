@@ -1,0 +1,27 @@
+- title: Hem
+  path: /
+
+- title: Blogg
+  path: /blogg/
+
+- title: Kontakt
+  path: /kontakt/
+
+- title: Coola grejer
+  children:
+
+    - title: Data
+      path: /data/
+
+    - title: Fakta om rymden
+      path: /rymden/
+
+- title: Balla länkar
+  path: /lankar/
+  children:
+
+    - title: Videor
+      path: /lankar/videor/
+
+    - title: Bilder
+      path: /lankar/bilder/

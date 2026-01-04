@@ -1,0 +1,15 @@
+<ul>
+  {% for item in include.items %}
+    <li>
+      {% if item.path %}
+        {% assign path = item.path | relative_url %}
+        <a href="{{ path }}">{{ item.title }}</a>
+      {% else %}
+        {{ item.title }}
+      {% endif %}
+      {% if item.children %}
+        {% include nav/ul.html items = item.children %}
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
